@@ -1,0 +1,40 @@
+.foot {
+    background-color: var(--secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container--foot {
+    display: flex;
+    align-items: baseline;
+}
+
+.address-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--main-letter-spacing);
+    color: rgba(255, 255, 255, 0.6);
+
+    display: block;
+    margin-bottom: 9px;
+
+&--google {
+        color: var(--white-color);
+    }
+}
+
+
+
+.container__foot-wrapper {
+    margin-left: 70px;
+
+&:first-child {
+        margin-left: 0;
+    }
+}
+
+
+
+.foot-subscribe-wrapper {
+    margin-left: 93px;
+}
